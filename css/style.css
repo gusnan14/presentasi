@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+.warna {
+    background-color:transparent;
+    color: white;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.main-text {
+    padding-top: 40px;
+}
+
+.info-bos {
+    font-size: 40px ;
+}
+#namabos {
+    font-size: 100px;
+}
+
+.divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+hr.hr-text {
+    position: relative;
+    border: none;
+    height: 1px;
+    background: #999;
+    color: black;
+}
+
+hr.hr-text::before {
+    content: attr(data-content);
+    display: inline-block;
+    background: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(2, 2, 2);
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    min-height: 100vh;
+}
+
+.text-uppercase {
+    letter-spacing: .1em;
+}
